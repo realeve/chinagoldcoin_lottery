@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "cheerio": "^1.0.0-rc.3",
+    "jest": "^23.6.0",
+    "qs": "^6.7.0"
+  }
+}
